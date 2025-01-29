@@ -26,6 +26,33 @@ body{
     text-transform: uppercase;
 
   }
+  .botones{
+    border-radius: 0px;  
+    margin-right: 10px;
+    cursor: pointer; /* Cambia el cursor al pasar */
+    transition: 0.3s;
+  }
+  .botones:hover {
+    background-color: white; /* Fondo blanco */
+    color: red; /* Texto rojo */
+    border: 1px solid red; /* Borde rojo */
+}
+.botonReserva{
+  border-radius: 0px;  
+  margin-right: 10px;
+  cursor: pointer; /* Cambia el cursor al pasar */
+  transition: 0.3s;
+  position: absolute; 
+  top: 5%; 
+  left: 5%; 
+  transform: translate(-50%, -50%);
+
+}
+.botonReserva:hover {
+  background-color: rgb(0, 0, 0); 
+  color: rgb(255, 255, 255); 
+
+}
   .navbar-nav li a:hover , .dropdown-menu li a:hover, .active{
     color: rgb(176, 176, 176) !important;
     text-decoration: underline;
