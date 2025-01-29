@@ -100,12 +100,15 @@ body{
    .footer a,
    .footer p,
    .footer div{
-    font-size: 18px;
+    
     color: rgb(43, 146, 225);
 
    }
    .footer{
     background-color: rgb(195, 195, 195);
+   }
+   .small{
+    font-size: 15px !important;
    }
    
    .containerHeaderTecsanit{
