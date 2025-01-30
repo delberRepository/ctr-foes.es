@@ -158,9 +158,9 @@ body{
   }
   
   .carousel-indicators .circular-button {
-    border-radius: 50%; /* Hace el botón circular */
-    width: 25px; /* Establece el ancho del botón */
-    height: 25px; /* Establece la altura del botón */
+    border-radius: 0%; /* Hace el botón cuadrado */
+    width: 15px; /* Establece el ancho del botón */
+    height: 15px; /* Establece la altura del botón */
     margin-right: 5px;
     margin-left: 5px;
     background-color: #c7c6c6; /* Color de fondo del botón */
