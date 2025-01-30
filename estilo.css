@@ -214,7 +214,14 @@ z-index: 100;
   animation-iteration-count: infinite;
 
 }
-
+/* Ajustar la altura para que coincida con el input */
+.custom-select {
+  height: calc(1.5em + 0.75rem + 2px);
+  color: #696969;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid lightgray; /* Añadir borde de color gris claro */
+}
 
 
 .caja-texto{
