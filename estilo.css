@@ -47,7 +47,7 @@ body{
   border-radius: 0%;
   transition: background-color 0.3s, color 0.3s; /* Añade una transición suave */
   cursor: pointer;
-  font-size: 1.5rem; /* Aumenta el tamaño del texto */
+  font-size: 1.2rem; /* Aumenta el tamaño del texto */
   padding: 10px 20px; /* Aumenta el tamaño del botón */
  }
  .botonReserva:hover{
@@ -163,7 +163,7 @@ body{
     height: 15px; /* Establece la altura del botón */
     margin-right: 5px;
     margin-left: 5px;
-    background-color: #c7c6c6; /* Color de fondo del botón */
+    background-color: #ff1919 !important; /* Color de fondo del botón */
 }
 .fotos{
     width: 550px;

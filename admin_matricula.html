@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriculación Administrativa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .form-container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 5px;
+            color: #555;
+            text-align: left;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="submit"] {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 50%;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #8cbef3;
+        }
+        nav {
+            width: 100%;
+            background-color: #d7d7d7;
+            padding: 10px 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar .logo2 {
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #d7d7d7">
+        <div class="container-fluid">
+            <img class="logo2" src="logoBlanco.png" alt="Logo" style="max-width: 10%; height: auto;" />
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="col-md-6 order-1 order-md-2">
+                    <div class="logo-container text-center">
+                        <!-- Otros elementos del nav -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav> 
+    <div class="form-container">
+        <h2>Formulario de Matriculación</h2>
+        <form action="admin_matricula.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="edad">Edad:</label>
+            <input type="text" id="edad" name="edad" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="text" id="telefono" name="telefono" required>
+
+            <label for="correo">Email:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="numero_habitacion">Número de Habitación:</label>
+            <input type="text" id="numero_habitacion" name="numero_habitacion" required>
+
+            <label for="numero_matricula">Número de Matrícula:</label>
+            <input type="text" id="numero_matricula" name="numero_matricula" required>
+
+            <label for="nombre_curso">Nombre del curso:</label>
+            <input type="text" id="nombre_curso" name="nombre_curso">
+
+            <input type="submit" value="Matricular">
+        </form>
+    </div>
+</body>
+</html>
